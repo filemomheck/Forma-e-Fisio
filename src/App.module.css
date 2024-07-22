@@ -1,7 +1,28 @@
-.CardInfoBanner {
-  margin-top: -3.93rem;
+.InfoBanner {
+  height: 700px;
+  background: rgb(84, 93, 81);
+  background: linear-gradient(
+    119deg,
+    rgba(84, 93, 81, 1) 0%,
+    rgba(138, 153, 133, 1) 100%
+  );
+}
 
+.Cards {
+  margin-top: -3.93rem;
+  margin-bottom: -3.93rem;
   display: flex;
   gap: 2px;
   justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .Cards {
+    margin: 0;
+    padding: 2rem 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
 }
