@@ -7,7 +7,7 @@ import { Header } from "./Components/Header";
 
 import { Banner } from "./Components/Banner";
 import bannerHome from "./assets/banners/bannerHome.jpg";
-import { CardInfoBanner } from "./Components/CardInfoBanner";
+import { CardSocialMediaBanner } from "./Components/CardSocialMediaBanner";
 import instagramIcon from "./assets/icons/icon-instagram.svg";
 import whatsappIcon from "./assets/icons/icon-whatsapp.svg";
 import phoneIcon from "./assets/icons/icon-phone.svg";
@@ -24,22 +24,22 @@ export function App() {
       />
       <section className={styles.InfoBanner}>
         <div className={styles.Cards}>
-          <CardInfoBanner
+          <CardSocialMediaBanner
             icon={instagramIcon}
             linkIcon="https://google.com"
             content="@formaefisio"
           />
-          <CardInfoBanner
+          <CardSocialMediaBanner
             icon={whatsappIcon}
             linkIcon="https://google.com"
             content="(34) 99913 3993"
           />
-          <CardInfoBanner
+          <CardSocialMediaBanner
             icon={phoneIcon}
             linkIcon="https://google.com"
             content="(34) 99913 3993"
           />
-          <CardInfoBanner
+          <CardSocialMediaBanner
             icon={locationIcon}
             linkIcon="https://google.com"
             content="Texto Exemplo..."

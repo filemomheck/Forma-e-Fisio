@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardInfoBannerContainer = styled.div`
+export const CardSocialMediaBannerContainer = styled.div`
   width: 17.12rem;
   height: 7.87rem;
   border-radius: 4px;
