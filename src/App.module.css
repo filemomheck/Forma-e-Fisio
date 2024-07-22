@@ -1,5 +1,5 @@
-.InfoBanner {
-  height: 700px;
+.healthServicesHighlights {
+  height: 750px;
   background: rgb(84, 93, 81);
   background: linear-gradient(
     119deg,
@@ -8,7 +8,7 @@
   );
 }
 
-.Cards {
+.cards1HealthServicesHighlights {
   margin-top: -3.93rem;
   margin-bottom: -3.93rem;
   display: flex;
@@ -16,13 +16,496 @@
   justify-content: center;
 }
 
+.cards2HealthServicesHighlights {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contentHealthServicesHighlights {
+  max-width: 52rem;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contentHealthServicesHighlights > h1 {
+  color: #ffedbe;
+  font-size: 2.18rem;
+  text-align: center;
+}
+
+.contentHealthServicesHighlights h3 {
+  margin-top: 1rem;
+
+  background: linear-gradient(
+    105deg,
+    rgba(255, 237, 192, 1),
+    rgba(177, 155, 100, 1)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+
+  font-size: 1.875rem;
+  text-align: center;
+}
+
+.titleModalities {
+  margin: 8rem auto;
+  color: #545d51;
+  text-align: center;
+}
+
+.titleModalities img {
+  margin: 1rem;
+}
+
+.modalities {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.cardsModalities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.68rem;
+}
+
+.schedules {
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  padding-top: 6rem;
+  border-top: 1px solid #000000;
+}
+
+.scheduleContent {
+  background-color: #545d51;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.scheduleContentTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.scheduleContentTitle img {
+  height: 100%;
+}
+.scheduleContentText {
+  padding: 2rem;
+}
+
+.scheduleContentText h1 {
+  font-size: 1.56rem;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 237, 192, 1),
+    rgba(177, 155, 100, 1)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.scheduleContentText > p {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+
+.scheduleContentText a {
+  padding: 0.75rem 2.12rem;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 237, 192, 1),
+    rgba(177, 155, 100, 1)
+  );
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.cta1 {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 5.56rem 0;
+}
+
+.cta1Content {
+  margin: 0 auto;
+  max-width: 64rem;
+}
+
+.cta1Content > p {
+  font-size: 1.56rem;
+  text-align: center;
+  color: #545d51;
+}
+
+.cta1Content > h1 {
+  max-width: 32rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 1.875rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #545d51;
+}
+
+.cta1Content .ctaBtn {
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  font-size: 1.56rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-align: center;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 237, 192, 1),
+    rgba(177, 155, 100, 1)
+  );
+}
+
+.cta1Content .ctaBtn a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.testimonials {
+  background-image: url("./assets/banners/testimonials.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.testimonials > h1 {
+  padding: 4rem 0;
+  font-size: 2.18rem;
+  text-transform: uppercase;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 237, 192, 1),
+    rgba(177, 155, 100, 1)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.testimonials > img {
+  width: 40rem;
+}
+
+.testemonialsImgs {
+  display: flex;
+  gap: 2rem;
+}
+
+.studio1 {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.studio1Content {
+  padding: 6rem;
+}
+
+.studio1Content h1 {
+  font-size: 2.18rem;
+  color: #545d51;
+}
+
+.studio1Content p {
+  margin-top: 1rem;
+  font-size: 1.56rem;
+  color: #545d51;
+  font-weight: 300;
+}
+
+.studio2 {
+  display: flex;
+  background-color: #545d51;
+}
+
+.studio2Content {
+  padding: 6rem;
+}
+
+.studio2Content h1 {
+  font-size: 2.18rem;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 237, 192, 1),
+    rgba(177, 155, 100, 1)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.studio2Content p {
+  margin-top: 1rem;
+  font-size: 1.56rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.CardsInformationHealthConditions {
+  padding: 6.75rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.CardsHCContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.CardsInformationHealthConditions > h1 {
+  max-width: 48rem;
+  margin-bottom: 6rem;
+  font-size: 2.18rem;
+  text-align: center;
+  color: #545d51;
+}
+
+.footer {
+  padding: 6rem 0;
+  background-color: #545d51;
+}
+
+.footerContent {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.horary {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.horary h1 {
+  font-size: 1.87rem;
+  color: #545d51;
+}
+
+.horary h3 {
+  font-size: 1.2rem;
+  color: #545d51;
+}
+
+.horary p {
+  color: #545d51;
+}
+
+.openingHours {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.classSchedule {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctaFooter {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 237, 192, 1),
+    rgba(177, 155, 100, 1)
+  );
+}
+
+.ctaFooter a {
+  text-decoration: none;
+  font-size: 1.56rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.mapGoogle {
+  width: 100%;
+  height: 30rem;
+  border-radius: 4px;
+}
+
+@media (max-width: 1420px) {
+  .cardsModalities {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 1200px) {
-  .Cards {
+  .healthServicesHighlights {
+    height: auto;
+  }
+  .cards1HealthServicesHighlights {
     margin: 0;
     padding: 2rem 0;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+  }
+
+  .cards2HealthServicesHighlights {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .contentHealthServicesHighlights {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contentHealthServicesHighlights h1 {
+    margin: 0 auto;
+    max-width: 20rem;
+    font-size: 1.56rem;
+  }
+
+  .contentHealthServicesHighlights h3 {
+    margin: 0 auto;
+    max-width: 20rem;
+    font-size: 1.25rem;
+  }
+
+  .modalities {
+    margin: 2rem;
+  }
+
+  .titleModalities {
+    margin: 4rem auto;
+    color: #545d51;
+    text-align: center;
+  }
+
+  .cardsModalities {
+    grid-template-columns: 1fr;
+  }
+
+  .scheduleContent {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .scheduleContent .imageCoverSchedule {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .cta1Content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .cta1Content > p {
+    font-size: 1.25rem;
+  }
+
+  .cta1Content > h1 {
+    font-size: 1.54rem;
+  }
+
+  .cta1Content .ctaBtn a {
+    font-size: 1.25rem;
+  }
+
+  .testimonials > img {
+    width: 80%;
+  }
+
+  .testimonials > h1 {
+    font-size: 1.85rem;
+    text-align: center;
+  }
+
+  .testemonialsImgs {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .studio1 {
+    flex-direction: column;
+  }
+
+  .studio1Content {
+    padding: 2rem;
+  }
+
+  .studio1Content h1 {
+    font-size: 1.87rem;
+  }
+
+  .studio1Content p {
+    font-size: 1.25rem;
+  }
+
+  .studio2 {
+    flex-direction: column;
+  }
+
+  .studio2Content {
+    padding: 2rem;
+  }
+
+  .studio2Content h1 {
+    font-size: 1.87rem;
+  }
+
+  .studio2Content p {
+    font-size: 1.25rem;
+  }
+
+  .CardsHCContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .CardsInformationHealthConditions > h1 {
+    max-width: none;
+    font-size: 1.56rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
